@@ -28,44 +28,26 @@
     
 </head>
 <body>
-    <style>
-        html, body {
-          width: 100%;
-          height: 100%;
-          margin: 0;
-          padding: 0;
-          font-family: "Audiowide", sans-serif;
-        }
-
-        body {
-          background: repeating-conic-gradient(from 45deg, #3F4D63 0deg 90deg, #495973 90deg 180deg);
-          background-size: 50px 50px;
-          animation: scrollBackground;
-          animation-duration: 5s;
-          animation-iteration-count: infinite;
-          animation-timing-function: linear;
-        }
-
-        @keyframes scrollBackground  {
-          0% {
-            background-position: 0px 0px;
-          }
-
-          100% {
-            background-position: 50px 50px;
-          }
-        }
-    </style>
+  <script>
+    (function() {
+      var sheet = document.createElement('link');
+      sheet.rel  = 'stylesheet';
+      sheet.href = 'css/style' + (Math.floor(Math.random()*2)+1) + '.css';
+      document.getElementsByTagName('head')[0].appendChild(sheet);
+    })();
+    </script>
     <div class="container">
-        <h1>Code Blog</h1>
-        <p>This blog is a selection of articles and notes from diffrent sources but mostly from <a href="https://www.notion.so">Notion</a></p>
-        <p>Let's <a href="https://nazimboudeffa-social.glitch.me/">Get Social</a></p>
-        <h2>Articles</h2>
-        <ul>
-            <li><a href="https://spark-plaster-13a.notion.site/EN-Problems-I-am-Solving-b08454d05108472ea790a45cfa25e269">[EN] Problems I am Solving</a> (notion)</li>
-            <li><a href="https://spark-plaster-13a.notion.site/EN-How-Problem-Solving-can-be-Fun-455f14dcfac047d5a6729a5912a21c96">[EN] How Problem Solving can be Fun</a> (notion)</li>
-            <li><a href="https://spark-plaster-13a.notion.site/EN-Facts-of-practicing-multiple-languages-64c7d49ef9a24cfe9c256177810a432e">[EN] Facts of Practicing Multiple Languages</a> (notion)</li>
-        </ul>
+        <div>
+          <h1>Code Blog</h1>
+          <p>This blog is a selection of articles and notes from diffrent sources but mostly from <a href="https://www.notion.so">Notion</a></p>
+          <p>Let's <a href="https://nazimboudeffa-social.glitch.me/">Get Social</a></p>
+          <h2>Articles</h2>
+          <ul>
+              <li><a href="https://spark-plaster-13a.notion.site/EN-Problems-I-am-Solving-b08454d05108472ea790a45cfa25e269">[EN] Problems I am Solving</a> (notion)</li>
+              <li><a href="https://spark-plaster-13a.notion.site/EN-How-Problem-Solving-can-be-Fun-455f14dcfac047d5a6729a5912a21c96">[EN] How Problem Solving can be Fun</a> (notion)</li>
+              <li><a href="https://spark-plaster-13a.notion.site/EN-Facts-of-practicing-multiple-languages-64c7d49ef9a24cfe9c256177810a432e">[EN] Facts of Practicing Multiple Languages</a> (notion)</li>
+          </ul>
+        </div>
     </div>
 </body>
 </html>
