@@ -12,4 +12,11 @@ body {
   background-size: 5.1961524227em 6em;
 }
 
+#blog {
+  background: white;
+  margin-top: 20px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+}
+
 /*# sourceMappingURL=style.css.map */

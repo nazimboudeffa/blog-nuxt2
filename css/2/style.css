@@ -10,4 +10,11 @@ html, body {
     height: 100vw;
     background: conic-gradient(from 45deg, #561a16 25%, #6a201b 0% 50%, #a7332b 0% 75%, #d45d55 0%) 50%/ 20px 20px;
   }
+
+  #blog {
+    background : white; 
+    margin-top : 20px; 
+    padding : 10px 10px 10px 10px;
+    border-radius: 5px;
+  }
   
