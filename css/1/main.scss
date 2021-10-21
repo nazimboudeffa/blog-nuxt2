@@ -6,7 +6,7 @@ html, body {
     font-family: "Audiowide", sans-serif;
   }
 
-  body {
+body {
     background: repeating-conic-gradient(from 45deg, #3F4D63 0deg 90deg, #495973 90deg 180deg);
     background-size: 50px 50px;
     animation: scrollBackground;
@@ -14,13 +14,14 @@ html, body {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
   }
-
+  
   @keyframes scrollBackground  {
     0% {
       background-position: 0px 0px;
     }
-
+    
     100% {
       background-position: 50px 50px;
     }
-  }
+  
+ }

@@ -32,12 +32,13 @@
     (function() {
       var sheet = document.createElement('link');
       sheet.rel  = 'stylesheet';
-      sheet.href = 'css/style' + (Math.floor(Math.random()*2)+1) + '.css';
+      //sheet.href = 'css/3/style.css';
+      sheet.href = 'css/' + (Math.floor(Math.random()*3)+1) + '/style.css';
       document.getElementsByTagName('head')[0].appendChild(sheet);
     })();
     </script>
     <div class="container">
-        <div>
+        <div style="background : white; margin-top : 20px; padding : 10px 10px 10px 10px;border-radius: 5px;">
           <h1>Code Blog</h1>
           <p>This blog is a selection of articles and notes from diffrent sources but mostly from <a href="https://www.notion.so">Notion</a></p>
           <p>Let's <a href="https://nazimboudeffa-social.glitch.me/">Get Social</a></p>
