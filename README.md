@@ -3,3 +3,5 @@
 # Naz's blog
 
 Dedicated Code Blog, made with NUXT, to be used in [GitHub.com/DZair.DEV](https://github.com/dzairdev)
+
+The actual deployed branch is `html`
