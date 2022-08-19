@@ -2,4 +2,4 @@
 
 # Naz's blog
 
-Dedicated Code Blog, made with NUXT
+Dedicated Code Blog, made with NUXT, to be used in GitHub.com/DZairDEV
