@@ -1,63 +1,40 @@
 <template>
-  <div class="page-index">
-    <div class="container">
-      <BlogSection :blogs="blogs"/>
+  <div id="landing">
+    <div class="hero">
+      <div class="hero-text">
+        <h1>This is my awesome blog page</h1>
+        <p>
+          <nuxt-link class="btn" to="/posts/">Look at my posts ...</nuxt-link>
+        </p>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-  import BlogSection from "~/components/Sections/BlogSection"
+export default {
+  components: {},
+  data() {
+    return {};
+  },
+  methods: {}
+};
+</script>
 
-  import blogsEn from '~/contents/en/blogsEn.js'
-  import blogsEs from '~/contents/es/blogsEs.js'
+<style lang="scss">
+#landing {
+  .hero {
+    height: 100vh;
 
-  export default {
-    async asyncData ({app}) {
+    h1 {
+      max-width: 80%;
+      font-size: 5em;
+      margin: auto;
+    }
 
-      const blogs = app.i18n.locale === 'en' ? blogsEn : blogsEs
-      
-      async function asyncImport (blogName) {
-        const wholeMD = await import(`~/contents/${app.i18n.locale}/blog/${blogName}.md`)
-        return wholeMD.attributes
-      }
-
-      return Promise.all(blogs.map(blog => asyncImport(blog)))
-      .then((res) => {
-        return {
-          blogs: res
-        }
-      })
-    },
-    
-    components: { BlogSection },
-
-    transition: {
-      name: 'slide-fade'
-    },
-
-    head () {
-      return {
-        title: this.$t('indexPageHead.title'),
-        htmlAttrs: {
-          lang: this.$i18n.locale,
-        },
-        script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
-        meta: [
-          { name: "author", content: "Marina Aisa" },
-          { name: "description", property: "og:description", content: this.$t('indexPageHead.description'), hid: "description" },
-          { property: "og:title", content: this.$t('indexPageHead.title') },
-          { property: "og:image", content: this.ogImage },
-          { name: "twitter:description", content: this.$t('indexPageHead.description') },
-          { name: "twitter:image", content: this.ogImage }
-        ]
-      };
-    },
-
-    computed: {
-      ogImage: function () {
-        return;
-      }
+    p {
+      font-size: 1em;
     }
   }
-</script>
+}
+</style>
