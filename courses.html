@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:url" content="https://nazimboudeffa.netlify.app" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Code Blog de naz" />
+    <meta property="og:description" content="Le blog codage de naz" />
+    <meta property="og:image" content="images/istockphoto-1306278445-170667a.jpg" />
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="Code Blog naz">
+    <meta name="twitter:creator" content="@nazimboudeffa">
+    <meta name="twitter:title" content="Code Blog de naz">
+    <meta name="twitter:url" content="https://nazimboudeffa.netlify.app">
+    <meta name="twitter:description" content="Le blog codage de naz">
+    <meta name="twitter:image" content="images/istockphoto-1306278445-170667a.jpg">
+    
+    <title>Bienvenue à mon Code Blog !</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    
+</head>
+<body>
+  <style>
+
+  </style>
+  <script>
+    /*
+    (function() {
+      var sheet = document.createElement('link');
+      sheet.rel  = 'stylesheet';
+      //sheet.href = 'css/3/style.css';
+      sheet.href = 'css/' + (Math.floor(Math.random()*3)+1) + '/style.css';
+      document.getElementsByTagName('head')[0].appendChild(sheet);
+    })();
+    */
+    </script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+      body{
+        font-family: 'Roboto', sans-serif;
+      }
+      body {
+        background: repeating-conic-gradient(from 45deg, #3F4D63 0deg 90deg, #495973 90deg 180deg);
+        background-size: 50px 50px;
+        animation: scrollBackground;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      @keyframes scrollBackground {
+        0% {
+          background-position: 0px 0px;
+        }
+        100% {
+          background-position: 50px 50px;
+        }
+      }
+      #blog {
+        background: white;
+        margin-top: 20px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 5px;
+      }
+      .menu{
+        background: white;
+        padding: 10px 10px 10px 10px;
+        border-radius: 5px;
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        flex-wrap:wrap;
+      }
+      .logo{
+        font-weight:700;
+        font-size:1.4rem;
+      }
+      .menu ul{
+        display:flex;
+        align-items:center;
+        gap:24px;
+        list-style:none;
+        cursor:pointer;
+      }
+      .actions{
+        display:flex;
+        align-items:center;
+      }
+      .btn{
+        background:white;
+        color:black;
+        padding: 0 24px;
+        border-radius:24px;
+        height:32px;
+        margin-left:10px;
+      }
+    </style>
+    <div class="container">
+      <header>
+        <nav>
+          <div class="menu">
+            <div class="logo">
+              <a href="index.html">{{ name }}'s BLOG</a>
+            </div>
+            <ul>
+              <li v-for="link in links">
+                <a :href="link.url">{{link.name}}</a>
+              </li>
+            </ul>
+            <div class="actions">
+              <a href="https://github.com/nazimboudeffa"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </nav>
+      </header>
+        <div id="blog">       
+          <h1 style="text-align:center;">Courses on Scrimba</h1>
+            <ul>
+                <li><a href="https://scrimba.com/scrim/co21248fcbf930efa5c39ec03">[FR] Your First HTML Element</a> (just learning how it works)</li>
+            </ul>
+          
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.30/vue.global.prod.js"></script>
+		<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:url" content="https://nazimboudeffa.netlify.app" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Code Blog de naz" />
+    <meta property="og:description" content="Le blog codage de naz" />
+    <meta property="og:image" content="images/istockphoto-1306278445-170667a.jpg" />
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="Code Blog naz">
+    <meta name="twitter:creator" content="@nazimboudeffa">
+    <meta name="twitter:title" content="Code Blog de naz">
+    <meta name="twitter:url" content="https://nazimboudeffa.netlify.app">
+    <meta name="twitter:description" content="Le blog codage de naz">
+    <meta name="twitter:image" content="images/istockphoto-1306278445-170667a.jpg">
+    
+    <title>Bienvenue à mon Code Blog !</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    
+</head>
+<body>
+  <style>
+
+  </style>
+  <script>
+    /*
+    (function() {
+      var sheet = document.createElement('link');
+      sheet.rel  = 'stylesheet';
+      //sheet.href = 'css/3/style.css';
+      sheet.href = 'css/' + (Math.floor(Math.random()*3)+1) + '/style.css';
+      document.getElementsByTagName('head')[0].appendChild(sheet);
+    })();
+    */
+    </script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+      body{
+        font-family: 'Roboto', sans-serif;
+      }
+      body {
+        background: repeating-conic-gradient(from 45deg, #3F4D63 0deg 90deg, #495973 90deg 180deg);
+        background-size: 50px 50px;
+        animation: scrollBackground;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      @keyframes scrollBackground {
+        0% {
+          background-position: 0px 0px;
+        }
+        100% {
+          background-position: 50px 50px;
+        }
+      }
+      #blog {
+        background: white;
+        margin-top: 20px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 5px;
+      }
+      .menu{
+        background: white;
+        padding: 10px 10px 10px 10px;
+        border-radius: 5px;
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        flex-wrap:wrap;
+      }
+      .logo{
+        font-weight:700;
+        font-size:1.4rem;
+      }
+      .menu ul{
+        display:flex;
+        align-items:center;
+        gap:24px;
+        list-style:none;
+        cursor:pointer;
+      }
+      .actions{
+        display:flex;
+        align-items:center;
+      }
+      .btn{
+        background:white;
+        color:black;
+        padding: 0 24px;
+        border-radius:24px;
+        height:32px;
+        margin-left:10px;
+      }
+    </style>
+    <div class="container">
+      <header>
+        <nav>
+          <div class="menu">
+            <a href="index.html">{{ name }}'s BLOG</a>
+            <ul>
+                <li v-for="link in links">
+                  <a :href="link.url">{{link.name}}</a>
+                </li>
+              </ul>
+            <div class="actions">
+              <a href="https://github.com/nazimboudeffa"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </nav>
+      </header>
+        <div id="blog">
+            <h1 style="text-align:center;">Blog</h1>
+        <h2>Articles & Notes</h2>
+          <ul>
+              <li><a href="https://spark-plaster-13a.notion.site/EN-From-Studies-to-CodeWars-to-Work-575e7f89d87045f3af03b73bb9eb6276">[EN] From Studies to CodeWars to Work</a> (notion)</li>
+              <li><a href="https://spark-plaster-13a.notion.site/EN-Insertion-Sort-e12f7da0801a44aeae250e53cca75264">[EN] Insertion Sort</a> (notion)</li>
+              <li><a href="https://spark-plaster-13a.notion.site/EN-Problems-I-am-Solving-b08454d05108472ea790a45cfa25e269">[EN] Problems I am Solving</a> (notion)</li>
+              <li><a href="https://spark-plaster-13a.notion.site/EN-How-Problem-Solving-can-be-Fun-455f14dcfac047d5a6729a5912a21c96">[EN] How Problem Solving can be Fun</a> (notion)</li>
+              <li><a href="https://spark-plaster-13a.notion.site/EN-Facts-of-practicing-multiple-languages-64c7d49ef9a24cfe9c256177810a432e">[EN] Facts of Practicing Multiple Languages</a> (notion)</li>
+          </ul>
+          <h2>Pure CSS</h2>
+          <ul>
+              <li><a href="https://www.notion.so/FR-BG-Patterns-Conic-Gradients-925eebaa70494a418878adbcebf60f10">[FR] Background Patterns en CSS : Conic Gradients</a> (notion)</li>
+          </ul>
+          <h2>Generative Art (ou Art Procédural)</h2>
+          <ul>
+              <li><a href="https://spark-plaster-13a.notion.site/FR-Carr-s-Al-atoires-eca83b64af734a16819428311df9b2b7">[FR] Carrés Aléatoires</a></li>
+              <li><a href="https://spark-plaster-13a.notion.site/FR-Cubes-Al-atoires-8072510a79544a09b720c93b398ed8f2">[FR] Cubes Aléatoires</a></li>
+              <li><a href="https://spark-plaster-13a.notion.site/FR-Carr-s-Triples-eaeb69a0c2114e409fcf6a3a4b043dd6">[FR] Carrés Triples</a></li>
+              <li><a href="https://spark-plaster-13a.notion.site/FR-Mon-Algo-Mandelbrot-en-Python-b5be8eff424c45d08ed3916f293d5d90">[FR] Mon Algo Mandelbrot en Python</a></li>
+          </ul>
+          <h2>Thougths</h2>
+          <ul>
+            <li><a href="https://spark-plaster-13a.notion.site/FR-Cognition-et-Code-1efb119b134c461bb60379992417b711">[FR] Congnition et Code</a></li>    
+          </ul>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.30/vue.global.prod.js"></script>
+            <script src="js/script.js"></script>
+    </body>
+    </html>
