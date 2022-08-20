@@ -1,6 +1,6 @@
 <template>
   <header>
-	  <div class="title">My Blog</div>
+	  <div class="title">Naz's coding blog</div>
 	  <nav>
 		  <nuxt-link to="/">Home</nuxt-link>
 		  <nuxt-link to="/about">About</nuxt-link>
