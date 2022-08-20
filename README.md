@@ -5,3 +5,5 @@
 Dedicated Code Blog, made with NUXT, to be used in [GitHub.com/DZair.DEV](https://github.com/dzairdev)
 
 The deployed branch when it's on maintenance is `html`
+
+Very good tutorial https://www.youtube.com/watch?v=1SAZMFwYUDE
