@@ -1,85 +1,64 @@
 <template>
-  <div class="home-page">
-	  <h2>Latest Posts</h2>
-	  <div class="articles">
-		  <div class="article" v-for="article of articles" :key="article">
-			  <nuxt-link :to="{ name: 'slug', params: { slug: article.slug } }">
-				  <div class="article-inner">
-						<img :src="require(`~/assets/resources/${article.img}`)" alt="" />
-						<div class="detail">
-							<h3>{{ article.title }}</h3>
-							<p>{{ article.description }}</p>
-						</div>
-				  </div>
-			  </nuxt-link>
-		  </div>
-	  </div>
-  </div>
+  <section id="hero">
+    <div class="hero-text">
+      <h1>Hello World !</h1>
+      <p>Welcome to my blog</p>
+    </div>
+  </section>
 </template>
 
 <script>
-export default {
-	async asyncData({ $content, params }) {
-		const articles = await $content('blog', params.slug)
-			.only(['title', 'description', 'img', 'slug'])
-			.sortBy('createdAt', 'asc')
-			.fetch();
 
-		return {
-			articles
-		}
-	}
-}
 </script>
 
 <style>
-
-.home-page {
-  padding: 50px 30px;
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Helvetica;
+  font-size: 18px;
 }
 
-h2 {
-  margin-bottom: 30px;
+#hero{
+  background-image: url('../assets/resources/hero.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.hero-text{
   text-align: center;
 }
 
-.articles {
-  margin: 0 auto;
-  max-width: 800px;
+.hero-text h1{
+  font-size: 3rem;
+  color: White;
 }
 
-.article {
-  margin-bottom: 15px;
+.hero-text p{
+  font-size: 2rem;
+  color: White;
+  text-transform: uppercase;
 }
 
-.article-inner {
-  padding: 15px;
-  background: #FFF;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-
-  display: flex;
+@media only screen and (max-width: 600px) {
+  *{
+    font-size: 13px;
+  } 
 }
 
-.article-inner img {
-  display: block;
-  width: 100%;
-  max-width: 300px;
-}
-.article-inner .detail {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-h3 {
-  color: #212121;
-  font-size: 24px;
-  text-decoration: none;
-}
-
-p {
-  color: #888;
-  font-size: 18px;
-  text-decoration: none;
-}
 </style>
