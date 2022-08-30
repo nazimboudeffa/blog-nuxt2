@@ -1,6 +1,6 @@
 ---
 title: FR - Allez au boulot !
-description: C'est la rentrée, j'ai fais des traveaux chez moi.
+description: C'est la rentrée, reprise du codage
 slug: traveaux
 img: hero.jpg
 ---
