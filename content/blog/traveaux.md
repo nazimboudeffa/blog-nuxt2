@@ -11,7 +11,7 @@ img: hero.jpg
 
 Alors voilà, j'ai enfin lancé mon blog après une abscence de code de 10 jours à faire des traveaux chez moi, je suis assez content de rebrancher mon PC et retrouver tous mes projets sur GitHub sous une poussière infernale
 
-Ce blog est vraiment très important car j'ai passé beaucoup de temps à travailler sur un système de contenu avec Express (vous pouvez trouver le projet sur mon compte GitHub) et je suis récemment passé à VUeJS et je trouves que ça ma facilite beauycoup les choses
+Ce blog est vraiment très important car j'ai passé beaucoup de temps à travailler sur un système de contenu avec Express (vous pouvez trouver le projet sur mon compte GitHub) et je suis récemment passé à VueJS et je trouves que ça ma facilite beauycoup les choses
 
 Je vais essayer au maximum de parler code et ne pas m'éparpiller à raconter ma vie car ce serait trop facile, tout ce que je fais c'est que je donne de mes nouvelles à ma famille qui est en Algérie, ils sont tous resté là bas quuand je suis arrivé en France en 1994 pour faire mes études, mes frères, mes soeurs, mes parents, tout le monde
 
