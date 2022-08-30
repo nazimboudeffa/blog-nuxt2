@@ -9,7 +9,7 @@ img: hero.jpg
 
 [DRAFT]
 
-Alors voilà, j'ai enfin lancé mon blog après une abscence de code de 10 jours, je suis assez content de rebrancher mon PC et retrouver tous mes projets sur GitHub
+Alors voilà, j'ai enfin lancé mon blog après une abscence de code de 10 jours à faire des traveaux chez moi, je suis assez content de rebrancher mon PC et retrouver tous mes projets sur GitHub sous une poussière infernale
 
 Ce blog est vraiment très important car j'ai passé beaucoup de temps à travailler sur un système de contenu avec Express (vous pouvez trouver le projet sur mon compte GitHub) et je suis récemment passé à VUeJS et je trouves que ça ma facilite beauycoup les choses
 
