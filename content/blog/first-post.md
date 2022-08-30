@@ -3,6 +3,7 @@ title: My first blog post
 description: Welcome to my first blog post using the content module.
 slug: first-post
 img: blog-1.jpg
+number: 1
 ---
 
 # My first blog post
