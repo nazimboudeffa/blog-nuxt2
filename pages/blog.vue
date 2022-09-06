@@ -1,14 +1,14 @@
 <template>
   <div class="blog-page">
-	  <h2>Latest Posts</h2>
+	  <h2 class="latest">Latest Posts</h2>
 	  <div class="articles">
 		  <div class="article" v-for="article of articles" :key="article">
 			  <nuxt-link :to="{ name: 'slug', params: { slug: article.slug } }">
 				  <div class="article-inner">
 						<img :src="require(`~/assets/resources/${article.img}`)" alt="" />
 						<div class="detail">
-							<h3>{{ article.title }}</h3>
-							<p>{{ article.description }}</p>
+							<h3 class="title">{{ article.title }}</h3>
+							<p class="desc">{{ article.description }}</p>
 						</div>
 				  </div>
 			  </nuxt-link>
@@ -38,7 +38,7 @@ export default {
   padding: 50px 30px;
 }
 
-h2 {
+.latest {
   margin-bottom: 30px;
   text-align: center;
 }
@@ -71,13 +71,13 @@ h2 {
   padding-right: 15px;
 }
 
-h3 {
+.title {
   color: #212121;
   font-size: 24px;
   text-decoration: none;
 }
 
-p {
+.desc {
   color: #888;
   font-size: 18px;
   text-decoration: none;
