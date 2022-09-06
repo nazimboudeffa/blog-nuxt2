@@ -20,7 +20,7 @@
 }
 
 #hero{
-  background-image: url('../assets/resources/hero.jpg');
+  background-image: url('../assets/resources/markus-spiske-iar-afB0QQw-unsplash.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
