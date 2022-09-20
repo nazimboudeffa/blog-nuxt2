@@ -16,8 +16,6 @@
       <li>https://www.root-me.org/thefailtheory</li>
       -->
     </ul>
-    <h2>More social</h2>
-    <p>https://nazimboudeffa-social.glitch.me</p>
   </div>
 </template>
 
