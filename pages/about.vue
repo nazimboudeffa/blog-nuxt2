@@ -12,8 +12,10 @@
       <li>https://cssbattle.dev/player/gXf2AZmAnoPeE0IYFOiv0MLn2sx2</li>
       <li>https://www.codewars.com/users/boudeffa</li>
       <li>https://binarysearch.com/@/nazimboudeffa</li>
+      <!--
       <li>https://tryhackme.com/p/thefailtheory</li>
       <li>https://www.root-me.org/thefailtheory</li>
+      -->
       </ul>
     </ul>
     <h2>More social</h2>
