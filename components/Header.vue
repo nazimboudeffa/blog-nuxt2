@@ -3,6 +3,7 @@
 	  <div class="title"><nuxt-link to="/">Naz's coding blog</nuxt-link></div>
 	  <nav>
 		  <nuxt-link to="/blog">Blog</nuxt-link>
+      <nuxt-link to="/portfolio">Portfolio</nuxt-link>
 		  <nuxt-link to="/about">About</nuxt-link>
 	  </nav>
   </header>
