@@ -1,12 +1,12 @@
 <template>
   <div class="about-page">
 	  <h1 class="about">About Page</h1>
-    <h2>Learn</h2>
+    <h2 class="about">Learn</h2>
     <ul>
       <li>https://www.codecademy.com/profiles/nazimboudeffa</li>
       <li>https://www.freecodecamp.org/nazimboudeffa</li>
     </ul>
-    <h2>Practice</h2>
+    <h2 class="about">Practice</h2>
     <ul>
       <li>https://cssbattle.dev/player/gXf2AZmAnoPeE0IYFOiv0MLn2sx2</li>
       <li>https://www.codewars.com/users/boudeffa</li>
