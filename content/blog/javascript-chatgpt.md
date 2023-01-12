@@ -6,6 +6,10 @@ img: javascript-chatgpt.jpg
 number: 3
 ---
 
+I've asked ChatGPT : Explain javascript in a blog post
+
+Here is what he answered, so I've decided that now and after I will only use it to write blog posts !
+
 JavaScript is a programming language that is primarily used to create interactive and dynamic web pages. It is a client-side language, which means that it runs on the user's web browser, as opposed to a server-side language like PHP or Ruby, which run on the web server.
 
 JavaScript allows developers to create a wide range of interactive elements on a website, such as drop-down menus, pop-up windows, and form validation. It can also be used to create complex web apps, such as online games and social media platforms.
