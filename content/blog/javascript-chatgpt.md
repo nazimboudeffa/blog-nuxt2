@@ -2,7 +2,7 @@
 title: What is Javascript !
 description: My first blog post using ChatGPT
 slug: javascript-chatgpt
-img: setup.jpg
+img: javascript-chatgpt.jpg
 number: 3
 ---
 
