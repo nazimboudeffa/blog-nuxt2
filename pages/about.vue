@@ -1,6 +1,6 @@
 <template>
   <div class="about-page">
-	  <h1 class="about">About Page</h1>
+	  <h1 class="about">Read</h1>
     <h2 class="about">Learn</h2>
     <h2 class="about">Practice</h2>
   </div>
