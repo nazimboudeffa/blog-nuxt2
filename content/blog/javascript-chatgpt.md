@@ -8,7 +8,7 @@ number: 3
 
 Amazing ! Today I've decided that now and after I will only use ChatGPT to write blog posts !
 
-I've asked ChatGPT : Explain javascript in a blog post
+I've asked ChatGPT to explain javascript in a blog post
 
 Here is what he/her answered :
 
