@@ -6,7 +6,7 @@ img: javascript-chatgpt.jpg
 number: 3
 ---
 
-Amazing ! Today I've decided that now and after I will only use ChatGPT to write blog posts !
+Today I've decided that now and after I will only use ChatGPT to write blog posts !
 
 I've asked ChatGPT to explain javascript in a blog post
 
