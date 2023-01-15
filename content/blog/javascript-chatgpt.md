@@ -1,16 +1,12 @@
 ---
-title: What is Javascript !
+title: What is Javascript
 description: My first blog post using ChatGPT
 slug: javascript-chatgpt
 img: javascript-chatgpt.jpg
 number: 3
 ---
 
-Today I've decided that now and after I will only use ChatGPT to write blog posts !
-
-I've asked ChatGPT to explain javascript in a blog post
-
-Here is what he/her answered :
+# What is Javascript
 
 JavaScript is a programming language that is primarily used to create interactive and dynamic web pages. It is a client-side language, which means that it runs on the user's web browser, as opposed to a server-side language like PHP or Ruby, which run on the web server.
 
