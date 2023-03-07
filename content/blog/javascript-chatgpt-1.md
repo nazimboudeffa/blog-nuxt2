@@ -1,7 +1,7 @@
 ---
 title: What is Javascript
 description: My first blog post using ChatGPT
-slug: javascript-chatgpt
+slug: javascript-chatgpt-1
 img: javascript-chatgpt.jpg
 number: 3
 ---
