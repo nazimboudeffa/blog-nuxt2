@@ -31,3 +31,5 @@ Utilize Resources: There are many resources available to help you learn JavaScri
 In conclusion, learning JavaScript can seem overwhelming, but it doesn't have to be. Start with the basics, get hands-on practice, understand the DOM, and learn asynchronous programming. Utilize resources to help you learn and stay up-to-date on the latest trends in web development. Happy coding!
 
 TODO : Generate iterations
+
+Link to the prompt https://sharegpt.com/c/tebFj5Y
