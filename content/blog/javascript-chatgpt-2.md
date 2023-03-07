@@ -14,7 +14,7 @@ Here is the prompt : Generate a 100-word article for a personal developement blo
 
 After that I just have asked ChatGPT to generate a heading
 
-I didn't used any iteration yet, so here is what I have got
+I didn't used any iteration yet, so here is what I have got :
 
 JavaScript is a popular programming language used to create interactive websites, web applications, and mobile applications. Learning JavaScript is essential for web developers, and it is not as daunting as it may seem. Here is a comprehensive guide to learn JavaScript.
 
