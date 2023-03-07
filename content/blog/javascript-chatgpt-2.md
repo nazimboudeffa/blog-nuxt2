@@ -6,8 +6,6 @@ img: javascript-chatgpt.jpg
 number: 3
 ---
 
-# Intro
-
 According to the book I am writing on prompt engineering based on YT videos, I have asked the same question to ChatGPT but with a longer prompt instead of just saying "What is Javascript"
 
 Here is the prompt : Generate a 100-word article for a personal developement blog that provides a comprehensive guide to learn javascript. The article should cover the basic concepts of javascript, and be writtent in a clear style accessible to a general audience. To support your article utilize specialised articles and books. Incorporate examples to illustrate the article
