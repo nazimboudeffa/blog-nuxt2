@@ -12,8 +12,6 @@ According to the book I am writing on prompt engineering based on YT videos, I h
 
 Here is the prompt : Generate a 100-word article for a personal developement blog that provides a comprehensive guide to learn javascript. The article should cover the basic concepts of javascript, and be writtent in a clear style accessible to a general audience. To support your article utilize specialised articles and books. Incorporate examples to illustrate the article
 
-After that I just have asked ChatGPT to generate a heading
-
 I didn't used any iteration yet, so here is what I have got :
 
 JavaScript is a popular programming language used to create interactive websites, web applications, and mobile applications. Learning JavaScript is essential for web developers, and it is not as daunting as it may seem. Here is a comprehensive guide to learn JavaScript.
