@@ -6,7 +6,9 @@ img: javascript-chatgpt.jpg
 number: 3
 ---
 
-# What is Javascript
+In this first post about Javascript I've just asked ChatGPT what is Javascript
+
+So here is the answer it gave me
 
 JavaScript is a programming language that is primarily used to create interactive and dynamic web pages. It is a client-side language, which means that it runs on the user's web browser, as opposed to a server-side language like PHP or Ruby, which run on the web server.
 
